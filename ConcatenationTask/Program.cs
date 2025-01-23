@@ -4,17 +4,16 @@
     {
         static void Main(string[] args)
         {
-            string FirstName;
-            Console.Write("Enter first name: ");
-            FirstName = Console.ReadLine();
-            // add two more variables for the users last name and their age
-            // take these inputs into the program
-            // use the test data Bob, Smith, 14
-            // ammend this code to output in one command
-            // Hello Bob Smith you are 14 years old
-            Console.WriteLine(FirstName);
-            // save and commit your program
-            // add evidence of the test input and your own input running the program
+           string firstName;
+        Console.Write("Enter first name: ");
+        firstName = Console.ReadLine();
+		string lastName;
+		Console.WriteLine("enter your last name");
+		lastName = Console.ReadLine();
+		string age;
+		Console.WriteLine("enter your age");
+		age = Console.ReadLine();
+		Console.WriteLine(firstName + lastName + age);
         }
     }
 }
